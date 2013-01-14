@@ -155,6 +155,8 @@ install_node() {
 
     install_tarball $version $url $config
   fi
+  # install npm
+  curl https://npmjs.org/install.sh | sh
 }
 
 #
